@@ -1,6 +1,16 @@
 
 
+.about h3{
+    color:mediumaquamarine;
+}
+
 .about-content{
-    padding-left: 50px;
-    padding-right:50px;
+    margin-left: 150px;
+    margin-right:150px;
+    line-height: 25px;
+    
+}
+
+.contact{
+    color: darkolivegreen;
 }

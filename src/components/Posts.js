@@ -16,7 +16,7 @@ export default function ({posts}){
 
 
 
-// featuredImage.fields.file.url
+// f
 
 /*
 
@@ -25,6 +25,7 @@ export default function ({posts}){
             <h2 >{article.fields.name}</h2>
             <img src={article.fields.featuredImage}  />
         <span>{article.fields.description}</span>
+        featuredimage.fields.file.url
         </div>)}
             
         </div>

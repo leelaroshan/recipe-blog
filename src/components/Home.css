@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left:20%;
+  /* margin-left:20%; */
   background-image: url('./images/bigtali.png');
   
   /* background-image: url(https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29va2Jvb2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80); 
@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  width: 80%;
+  /* width: 80%; */
   height: 800px;
 }
 

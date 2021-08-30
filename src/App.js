@@ -23,9 +23,11 @@ useEffect(() => {
   client.getEntries()
   .then(response=> {
   console.log(response.items)
+  console.log(response.items[0].fields.name);
+
   setArticles(response.items)
   })
-  .catch((err)=>console.log(err))
+  .catch((err)=>console.log(err)) 
   
 }, [])
 

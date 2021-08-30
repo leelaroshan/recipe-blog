@@ -30,7 +30,9 @@
 }
 
 .nav-item{
-    padding: 90px 30px;
+
+    /* margin-top: 180px; */
+    padding:  90px 30px;
 
     text-decoration: none;
     cursor: pointer;

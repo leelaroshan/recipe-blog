@@ -17,12 +17,12 @@ export default function Footer() {
                 
             <h5>Follow us on social media</h5>
             
-                <img className="youtube"
+                <img className="youtube" alt="youtube"
                 src="https://cdn.discordapp.com/attachments/865512073681305651/869521383871365140/youtube.png"></img>
-                <img className="instagram"
+                <img className="instagram" alt="instagram"
                 src="https://cdn.discordapp.com/attachments/865512073681305651/869521376715890778/instagram.png"></img>
                 <img
-                className="facebook" 
+                className="facebook" alt="facebook"
                 src="https://cdn.discordapp.com/attachments/865512073681305651/869521374178320384/facebook.png"></img>
 
             </div>
