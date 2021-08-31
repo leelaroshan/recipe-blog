@@ -11,7 +11,7 @@ export default function Home() {
         </div>
          <div className="content-div">  
             <h4>Recipes For Hungry People</h4>
-            <h6>Hungry makes food delicious</h6>
+            <h5>Hungry makes food delicious</h5>
             <p className="content">Knowing what foods we should and shouldn’t be eating can be really confusing, 
                 especially when it feels like the advice changes regularly. However,
                  evidence suggests that as well as affecting our physical health, 

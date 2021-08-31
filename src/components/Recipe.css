@@ -6,11 +6,12 @@
     text-align: center;
     
     color: black;
-    font-size: 30px;
+    font-size: 20px;
+    font-family:fantasy;
     
 }
 
-   
+  
 
 
 .background{
@@ -58,7 +59,7 @@
     cursor: pointer;
     outline: none;
     border-radius: 10px;
-    background-color:darkolivegreen ;
-    border-color:darkolivegreen;
+    background-color:rgb(156, 177, 120) ;
+    border-color:rgb(106, 129, 66);
 }
 
