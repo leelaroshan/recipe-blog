@@ -1,12 +1,30 @@
 import React from 'react'
 import marked from 'marked';
+import { useParams } from 'react-router-dom';
 
 import './post.css';
 
-export default function Post({recipes,index}) {
+export default function Post({recipes}) {
+
+
+  const {id} = useParams();
+
+
+
+  if(recipes.length === 0) {  
+    return (
+      <div><h4></h4></div>
+    )
+  }
+ 
+  
+
 
   console.log(recipes)
-    const { name, image, preparation } = recipes.fields;
+
+  
+    const { name, image, preparation } = recipes.find(recipe => recipe.sys.id === id).fields;
+    console.log(id, name,image,preparation);
     const postdescription =  marked(preparation)
     return (
        

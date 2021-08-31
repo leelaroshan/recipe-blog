@@ -28,7 +28,7 @@ export default function ({recipes}){
        alt={recipe.fields.name}
         className="card-img" /> 
 
-       <Link to="/recipes">
+       <Link to= {`recipes/${recipe.sys.id}`}>
            <button className="readbtn">Read </button>
            </Link>
               </div>

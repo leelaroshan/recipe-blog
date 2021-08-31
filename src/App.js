@@ -5,12 +5,14 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Navbar  from './components/Navbar';
 import { client } from './client';
-import Posts from './components/Posts';
+import Post from './components/Post';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact'
 import Recipe from './components/Recipe';
+
+
 
 
 
@@ -54,9 +56,17 @@ useEffect(() => {
       <Route path="/categories">
       <Recipe recipes={articles}/>
       </Route>
-      <Route path="/recipes">
-      <Posts posts={articles} />
+
+      <Route path="/recipes/:id">
+      <Post  recipes={articles} />
+
       </Route>
+
+      {/* <Route path="/recipes">
+      <Posts  posts={articles} />
+      
+      </Route> */}
+
 
       <Route path="/about">
       <About />
