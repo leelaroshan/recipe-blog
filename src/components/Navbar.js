@@ -10,12 +10,21 @@ export default function Navbar() {
         <Link  to="/home" className="nav-item" >Home </Link>
         
         <Link to="/categories"  className="nav-item" >Categories</Link>
-        {/* <Link to="/recipes"  className="nav-item" >Recipes</Link> */}
         <Link to="/about"  className="nav-item" >About</Link>
-        {/* <Link to="/contact"  className="nav-item" >Contact</Link> */}
+
+
+       
         </nav>
 
             
         </div>
     )
 }
+
+
+
+
+
+ {/* <Link to="/recipes"  className="nav-item" >Recipes</Link> */}
+        
+        {/* <Link to="/contact"  className="nav-item" >Contact</Link> */}

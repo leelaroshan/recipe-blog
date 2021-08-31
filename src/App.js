@@ -11,6 +11,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact'
 import Recipe from './components/Recipe';
+// import Posts from './components/Posts';
 
 
 
@@ -62,10 +63,6 @@ useEffect(() => {
 
       </Route>
 
-      {/* <Route path="/recipes">
-      <Posts  posts={articles} />
-      
-      </Route> */}
 
 
       <Route path="/about">
