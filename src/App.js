@@ -50,11 +50,15 @@ useEffect(() => {
 
        <div className="nav-switch-div"> 
        <Navbar />
+       
        <Switch>
-       <Route path="/home">
+       <Route exact path="/">
       <Home  />
-      </Route>
-      <Route path="/categories">
+       </Route>
+       <Route  path="/home">
+      <Home  />
+       </Route>
+      <Route  path="/categories">
       <Recipe recipes={articles}/>
       </Route>
 

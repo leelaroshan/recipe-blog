@@ -19,12 +19,6 @@ export default function Home() {
         </div>
 
 
-        <div className="categories">
-            <div className="category-section"> </div>
-
-        </div> 
-      
-
 
            
             
